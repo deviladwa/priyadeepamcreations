@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    width: 100%;
+    height: 5rem;
+    /* background-color: beige; */
+    float: left;
+    position: fixed;
+    display: block;
+}
+
+#logo{
+    width: 5rem;
+    height: 4.5rem;
+    float: left;
+    margin-left: 3rem;
+    margin-top: 4px;
+}
+
+#navbar-div{
+    width: 50%;
+    height: 5rem;
+    float: right;
+    display: grid;
+}
+
+li{
+    list-style: none;
+}
+
+.navs{
+    float: right;
+    text-decoration: none;
+    color: black;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding: .7rem;
+    border: 2px black solid;
+    border-radius: 50px;
+}
+
+.navs:hover{
+    background-color: black;
+    color: white;
+}
+
+#text-area{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg, #1584a0, #82dcf0);
+}
+
+#title-1{
+    font-family: 'Staatliches', cursive;
+    cursor: pointer;
+}
+
+#body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#ee9ca7, #ffdde1);
+}
+
+#our-poop{
+    color: white;
+    padding-top: 100px;
+    padding-left: 15px;
+    font-family: 'Baloo 2', cursive;
+    cursor: pointer;
+}
